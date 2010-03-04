@@ -66,7 +66,7 @@
 
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	unreadCount = [owa getInboxUnreadCount];
-	int menuIndex = 7;
+	int menuIndex = 8;
 	for (int i = menuIndex, c = [statusMenu numberOfItems]; i < c; i++) {
 		[statusMenu removeItemAtIndex:menuIndex];
 	}
