@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>OWANotifier</title>
+	  <link>http://github.com/jgallen23/OWANotifier/raw/master/appcast.xml</link>
+      <description></description>
+      <language>en</language>
+         <item>
+            <title>Version 2.0.0</title>
+            <pubDate>Tues, 2 Mar 2010 23:00:00 +0000</pubDate>
+			<description><![CDATA[
+			]]></description>
+			<enclosure url="http://github.com/downloads/jgallen23/OWANotifier/OWANotifier-2.0.0.tar.gz" sparkle:version="2.0.0" length="2208338" type="application/octet-stream" sparkle:dsaSignature="MCwCFFmbmBQZUGKA5X0Fqz2EoKgBM1NmAhRY3QvzWUhGztXUJtsC0bipNBByUw==" />
+         </item>
+   </channel>
+</rss>

@@ -1,0 +1,3 @@
+[submodule "lib/OWAParser"]
+	path = lib/OWAParser
+	url = http://github.com/jgallen23/OWAParser.git

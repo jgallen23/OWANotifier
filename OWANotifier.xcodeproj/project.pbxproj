@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* OWANotifierAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* OWANotifierAppDelegate.m */; };
+		7609F4EE113B4954000499E0 /* icon_off_large.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7609F4E9113B4954000499E0 /* icon_off_large.icns */; };
+		7609F4EF113B4954000499E0 /* icon_off_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 7609F4EA113B4954000499E0 /* icon_off_large.png */; };
+		7609F4F0113B4954000499E0 /* icon_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 7609F4EB113B4954000499E0 /* icon_off.png */; };
+		7609F4F1113B4954000499E0 /* icon_on_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 7609F4EC113B4954000499E0 /* icon_on_large.png */; };
+		7609F4F2113B4954000499E0 /* icon_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 7609F4ED113B4954000499E0 /* icon_on.png */; };
+		7657DC26113E44D600A3E01E /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657DC25113E44D600A3E01E /* Growl.framework */; };
+		7657DC2E113E44DD00A3E01E /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7657DC25113E44D600A3E01E /* Growl.framework */; };
+		7657DC99113E4BEA00A3E01E /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657DC98113E4BEA00A3E01E /* Sparkle.framework */; };
+		7657DCA2113E4BEE00A3E01E /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7657DC98113E4BEA00A3E01E /* Sparkle.framework */; };
+		7657DCA6113E4D2600A3E01E /* owanotifier_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 7657DCA5113E4D2600A3E01E /* owanotifier_pub.pem */; };
+		76A9B19D113EB9CC00501387 /* OWAParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A9B19C113EB9CC00501387 /* OWAParser.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		C94C9A73113C897400A54E2A /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = C94C9A72113C897400A54E2A /* Preferences.xib */; };
+		C94C9A77113C899300A54E2A /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C94C9A76113C899300A54E2A /* PreferencesWindowController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7609F4D6113B4899000499E0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7657DCA2113E4BEE00A3E01E /* Sparkle.framework in CopyFiles */,
+				7657DC2E113E44DD00A3E01E /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* OWANotifierAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWANotifierAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* OWANotifierAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWANotifierAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* OWANotifier_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWANotifier_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		7609F4E9113B4954000499E0 /* icon_off_large.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon_off_large.icns; sourceTree = "<group>"; };
+		7609F4EA113B4954000499E0 /* icon_off_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_off_large.png; sourceTree = "<group>"; };
+		7609F4EB113B4954000499E0 /* icon_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_off.png; sourceTree = "<group>"; };
+		7609F4EC113B4954000499E0 /* icon_on_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_on_large.png; sourceTree = "<group>"; };
+		7609F4ED113B4954000499E0 /* icon_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_on.png; sourceTree = "<group>"; };
+		7657DC25113E44D600A3E01E /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
+		7657DC98113E4BEA00A3E01E /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		7657DCA5113E4D2600A3E01E /* owanotifier_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = owanotifier_pub.pem; sourceTree = "<group>"; };
+		76A9B19B113EB9CC00501387 /* OWAParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OWAParser.h; path = lib/OWAParser/OWAParser.h; sourceTree = SOURCE_ROOT; };
+		76A9B19C113EB9CC00501387 /* OWAParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OWAParser.m; path = lib/OWAParser/OWAParser.m; sourceTree = SOURCE_ROOT; };
+		8D1107310486CEB800E47090 /* OWANotifier-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OWANotifier-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* OWANotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OWANotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94C9A72113C897400A54E2A /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		C94C9A75113C899300A54E2A /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
+		C94C9A76113C899300A54E2A /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				7657DC26113E44D600A3E01E /* Growl.framework in Frameworks */,
+				7657DC99113E4BEA00A3E01E /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				76A9B19B113EB9CC00501387 /* OWAParser.h */,
+				76A9B19C113EB9CC00501387 /* OWAParser.m */,
+				256AC3D80F4B6AC300CF3369 /* OWANotifierAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* OWANotifierAppDelegate.m */,
+				C94C9A75113C899300A54E2A /* PreferencesWindowController.h */,
+				C94C9A76113C899300A54E2A /* PreferencesWindowController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* OWANotifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* OWANotifier */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = OWANotifier;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* OWANotifier_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7657DCA5113E4D2600A3E01E /* owanotifier_pub.pem */,
+				7609F4E9113B4954000499E0 /* icon_off_large.icns */,
+				7609F4EA113B4954000499E0 /* icon_off_large.png */,
+				7609F4EB113B4954000499E0 /* icon_off.png */,
+				7609F4EC113B4954000499E0 /* icon_on_large.png */,
+				7609F4ED113B4954000499E0 /* icon_on.png */,
+				8D1107310486CEB800E47090 /* OWANotifier-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				C94C9A72113C897400A54E2A /* Preferences.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7657DC98113E4BEA00A3E01E /* Sparkle.framework */,
+				7657DC25113E44D600A3E01E /* Growl.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* OWANotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "OWANotifier" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				7609F4D6113B4899000499E0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OWANotifier;
+			productInstallPath = "$(HOME)/Applications";
+			productName = OWANotifier;
+			productReference = 8D1107320486CEB800E47090 /* OWANotifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OWANotifier" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* OWANotifier */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* OWANotifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				7609F4EE113B4954000499E0 /* icon_off_large.icns in Resources */,
+				7609F4EF113B4954000499E0 /* icon_off_large.png in Resources */,
+				7609F4F0113B4954000499E0 /* icon_off.png in Resources */,
+				7609F4F1113B4954000499E0 /* icon_on_large.png in Resources */,
+				7609F4F2113B4954000499E0 /* icon_on.png in Resources */,
+				C94C9A73113C897400A54E2A /* Preferences.xib in Resources */,
+				7657DCA6113E4D2600A3E01E /* owanotifier_pub.pem in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* OWANotifierAppDelegate.m in Sources */,
+				C94C9A77113C899300A54E2A /* PreferencesWindowController.m in Sources */,
+				76A9B19D113EB9CC00501387 /* OWAParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OWANotifier_Prefix.pch;
+				HEADER_SEARCH_PATHS = ../OWAParser/OWAParser;
+				INFOPLIST_FILE = "OWANotifier-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../OWAParser/OWAParser/build/Debug\"",
+				);
+				PRODUCT_NAME = OWANotifier;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OWANotifier_Prefix.pch;
+				HEADER_SEARCH_PATHS = ../OWAParser/OWAParser;
+				INFOPLIST_FILE = "OWANotifier-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../OWAParser/OWAParser/build/Debug\"",
+				);
+				PRODUCT_NAME = OWANotifier;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "OWANotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OWANotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
