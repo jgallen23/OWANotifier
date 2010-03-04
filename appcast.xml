@@ -7,10 +7,10 @@
       <language>en</language>
          <item>
             <title>Version 2.0.0</title>
-            <pubDate>Tues, 2 Mar 2010 23:00:00 +0000</pubDate>
+            <pubDate>Thur, 4 Mar 2010 8:00:00 +0000</pubDate>
 			<description><![CDATA[
 			]]></description>
-			<enclosure url="http://github.com/downloads/jgallen23/OWANotifier/OWANotifier-2.0.0.tar.gz" sparkle:version="2.0.0" length="2208338" type="application/octet-stream" sparkle:dsaSignature="MCwCFFmbmBQZUGKA5X0Fqz2EoKgBM1NmAhRY3QvzWUhGztXUJtsC0bipNBByUw==" />
+			<enclosure url="http://github.com/downloads/jgallen23/OWANotifier/OWANotifier-2.0.0.tar.gz" sparkle:version="2.0.0" length="936067" type="application/octet-stream" sparkle:dsaSignature="MCwCFFL+lmWAZ/dF+FLQeEjJmfz/5EKaAhQkx8BiAxaMTxKdXuiuDOFMdNJziw==" />
          </item>
    </channel>
 </rss>
